@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
@@ -16,7 +17,7 @@ class NoteAdapter(context:Context,
         {
             val noteTV = itemView.findViewById<TextView>(R.id.idTVNoteTitle)
             val timeTV = itemView.findViewById<TextView>(R.id.idTVTimeStamp)
-            val deleteTV = itemView.findViewById<TextView>(R.id.idIVDelete)
+            val deleteTV = itemView.findViewById<ImageView>(R.id.idIVDelete)
         }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

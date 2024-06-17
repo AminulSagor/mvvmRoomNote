@@ -58,8 +58,8 @@ dependencies {
     ksp(libs.androidx.room.compiler.v252)
     // ViewModel
     implementation(libs.androidx.lifecycle.viewmodel.ktx.v282)
-    implementation(libs.androidx.activity.ktx)
-    implementation(libs.androidx.fragment.ktx)
+    implementation ("androidx.activity:activity-ktx:1.3.1")
+    implementation("androidx.fragment:fragment-ktx:1.8.0")
     // LiveData
     implementation(libs.androidx.lifecycle.livedata.ktx.v282)
 }

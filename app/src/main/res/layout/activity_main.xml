@@ -21,7 +21,7 @@
         android:id="@+id/idFABAddNote"
         android:layout_margin="20dp"
         android:src="@drawable/ic_add"
-        app:tint=""
+        app:tint="@color/white"
         android:backgroundTint="@color/black_shade_2"
         android:contentDescription="@string/addnote" />
 
